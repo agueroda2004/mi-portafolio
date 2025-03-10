@@ -1,0 +1,129 @@
+@media (max-width: 767px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: white;
+        box-shadow: 0 0 5px lightgray;
+        z-index: 1000; 
+    }
+    .Personal {
+        margin-top: 5%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .P-fotoDani {
+        width: 85%;
+        border-radius: 5px;;
+    }
+    .P-Informacion {
+        width: 85%;
+    }
+    .P-nombre {
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 70px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .P-titulo {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .P-description {
+        width: 60%;
+        margin: 0;
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .Proyectos {
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .PR-nombre {
+        color: white;
+        text-align: start;
+        width: 85%;
+        padding: 30px;
+        padding-left: 0;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .Ameno {
+        width: 85%;
+        box-shadow: 0 0 3px rgb(115, 115, 115);
+    }
+    .PR-carousel {
+        height: 300px;
+        margin-bottom: 5%;
+    }
+    .PR-informacion {
+        margin-top: 2%;
+        padding: 30px;
+        padding-top: 0;
+        width: 100%;
+    }
+    .PR-proyecto-nombre {
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .PR-linea {
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .PR-proyecto-descripcion {
+        color: white;
+        width: 90%;
+        font-size: 20px;
+    }
+    .PR-tegnologias {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .PR-tecnologia {
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-right: 5px;
+        color: white;
+        text-align: center;
+        width: 80px;
+        margin-bottom: 5px;
+    }
+    .js { background-color: #F5DE19; width: 150px;}
+    .html { background-color: #EF652A;}
+    .css { background-color: #33A9DC;}
+    .git { background-color: #F05133; } 
+    .postman { background-color: #FD6C35; width: 130px;} 
+    .react { background-color: #61DAFB; color: white; }
+    .php { background-color: #777BB3; }
+    .gitlab { background-color: #FC6D26; width: 110px;}
+    .mysql { background-color: #00678C; width: 120px;}
+    
+}
