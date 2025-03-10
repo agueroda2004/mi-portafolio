@@ -9,19 +9,19 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100px;
+        height: 70px;
         background: white;
         box-shadow: 0 0 5px lightgray;
-        z-index: 1000; 
+        z-index: 1000;
     }
     .Personal {
-        margin-top: 5%;
         width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 5%;
     }
     .P-fotoDani {
         width: 85%;
@@ -33,22 +33,22 @@
     .P-nombre {
         font-weight: 400;
         font-family: sans-serif;
-        font-size: 70px;
+        font-size: 2.5rem;
         margin: 0;
         margin-top: 10px;
     }
     .P-titulo {
         margin: 0;
         font-family: sans-serif;
-        font-size: 25px;
+        font-size: 1rem;
         font-weight: 100;
     }
     .P-description {
-        width: 60%;
+        width: 80%;
         margin: 0;
         margin-top: 10px;
         font-family: sans-serif;
-        font-size: 15px;
+        font-size: 0.7rem;
     }
     .Proyectos {
         width: 100%;
@@ -73,19 +73,14 @@
         width: 85%;
         box-shadow: 0 0 3px rgb(115, 115, 115);
     }
-    .PR-carousel {
-        height: 300px;
-        margin-bottom: 5%;
-    }
     .PR-informacion {
-        margin-top: 2%;
-        padding: 30px;
+        padding: 5%;
         padding-top: 0;
         width: 100%;
     }
     .PR-proyecto-nombre {
         color: white;
-        font-size: 45px;
+        font-size: 2rem;
         font-weight: bold;
     }
     .PR-linea {
@@ -98,7 +93,7 @@
     .PR-proyecto-descripcion {
         color: white;
         width: 90%;
-        font-size: 20px;
+        font-size: 0.7rem;
     }
     .PR-tegnologias {
         display: flex;
@@ -109,26 +104,27 @@
         gap: 5px;
     }
     .PR-tecnologia {
-        font-size: 24px;
+        font-size: 0.7rem;
         font-weight: bold;
-        border-radius: 5px;
+        border-radius: 2px;
         margin-right: 5px;
         color: white;
         text-align: center;
-        width: 80px;
         margin-bottom: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
-    .js { background-color: #F5DE19; width: 150px;}
+    .js { background-color: #F5DE19;}
     .html { background-color: #EF652A;}
     .css { background-color: #33A9DC;}
     .git { background-color: #F05133; } 
-    .postman { background-color: #FD6C35; width: 130px;} 
-    .react { background-color: #61DAFB; color: white; }
+    .postman { background-color: #FD6C35;} 
+    .react { background-color: #61DAFB;}
     .php { background-color: #777BB3; }
-    .gitlab { background-color: #FC6D26; width: 110px;}
-    .mysql { background-color: #00678C; width: 120px;}
-    .bootstrap { background-color: #7811F8; width: 130px;}
-    .vsc {background-color: #22A4F1; width: 250px;}
+    .gitlab { background-color: #FC6D26;}
+    .mysql { background-color: #00678C;}
+    .bootstrap { background-color: #7811F8;}
+    .vsc {background-color: #22A4F1;}
     
     .Habilidades {
         width: 100%;
@@ -142,7 +138,7 @@
     }
     .HA-card {
         width: 70%;
-        height: 700px;
+        height: 60vh;
         perspective: 1000px;
     }
     
